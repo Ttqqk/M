@@ -14,12 +14,12 @@
     "env": {
         "API_ID": {
             "description": "your API_ID from my.telegram.org",
-            "required": true
+            "required": true,
             "value": "18094381" 
         },
         "API_HASH": {
             "description": "your API_HASH from my.telegram.org",
-            "required": true
+            "required": true,
             "value": "JEEEW5a4bf470a49b5d0336ed235c27e8d10d" 
         },
         "BOT_TOKEN": {
@@ -32,7 +32,7 @@
         },
         "BOT_NAME": {
             "description": "fill with your bot name from @BotFather",
-            "required": true
+            "required": true,
             "value": "SASOKE Music"
         },
         "ASSISTANT_NAME": {
