@@ -37,7 +37,8 @@
         },
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username account without @",
-            "required": true
+            "required": true,
+            "value":  "JEEEW"
         },
         "SESSION_NAME": {
             "description": "fill with the pyrogram String Session",
