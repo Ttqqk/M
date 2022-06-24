@@ -63,7 +63,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ اضف البوت الى مجموعتك",
+                        "➕ اضفني الى مجموعتك",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
@@ -74,15 +74,12 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹قناة السورس›", url=f"https://t.me/EITHON1"
-                    ),
-                    InlineKeyboardButton(
-                        "‹قناة البوت›", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "‹قناة البوت›", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹لتنصيب بوت مماثل›", url="https://t.me/TTTLL0"
+                        "‹💰 شراء نسخة مدفوعة›", url="https://t.me/JEEEW"
                     )
                 ],
             ]
@@ -102,9 +99,9 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("اوامر التشغيل", url=f"https://t.me/EITHON1"),
+                InlineKeyboardButton("اوامر التشغيل", url=f"https://t.me/{BOT_USERNAME}"),
                 InlineKeyboardButton(
-                    "مطور السورس", url=f"https://t.me/TTTLL0"
+                    "مطور السورس", url=f"https://t.me/JEEEW"
                 ),
             ]
         ]
@@ -129,9 +126,9 @@ async def src(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("اوامر التشغيل", url=f"https://t.me/EITHON1"),
+                InlineKeyboardButton("اوامر التشغيل", url=f"https://t.me/{BOT_USERNAME}"),
                 InlineKeyboardButton(
-                    "مطور السورس", url=f"https://t.me/TTTLL0"
+                    "مطور السورس", url=f"https://t.me/JEEEW"
                 ),
             ]
         ]
